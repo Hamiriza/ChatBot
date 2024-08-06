@@ -1,0 +1,92 @@
+[
+  {
+    "response_type":  "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "morning"],
+    "bot_response": "Good morning! How can I help you today?",
+    "required_words": ["good", "morning"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "afternoon"],
+    "bot_response": "Good afternoon! What can I do for you?",
+    "required_words": ["good", "afternoon"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "evening"],
+    "bot_response": "Good evening! How can I assist you?",
+    "required_words": ["good", "evening"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "name"],
+    "bot_response": "I am your friendly assistant.",
+    "required_words": ["what", "your", "name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "time", "is", "it"],
+    "bot_response": "I'm not equipped to tell time, but you can check your device.",
+    "required_words": ["what", "time"]
+  },
+  {
+    "response_type": "statement",
+    "user_input": ["i", "love", "coding"],
+    "bot_response": "That's awesome! Coding is a lot of fun.",
+    "required_words": ["love", "coding"]
+  },
+  {
+    "response_type": "statement",
+    "user_input": ["i", "am", "tired"],
+    "bot_response": "You should take a break and rest for a while.",
+    "required_words": ["tired"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "can", "you", "do"],
+    "bot_response": "I can chat with you, answer questions, and provide assistance.",
+    "required_words": ["what", "can", "you", "do"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["tell", "me", "a", "joke"],
+    "bot_response": "Why don't scientists trust atoms? Because they make up everything!",
+    "required_words": ["tell", "joke"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "the", "weather"],
+    "bot_response": "I'm not able to check the weather, but you can use a weather app.",
+    "required_words": ["what", "weather"]
+  }
+]
